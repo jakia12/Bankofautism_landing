@@ -7499,8 +7499,14 @@ ul.wallet_list {
   margin-top: -28px;
 }
 
+.my-video {
+  height: 450px;
+  width: 550px;
+  border-radius: 15px;
+}
+
 @media only screen and (max-width: 600px) {
-  .my-video video{
+  .my-video {
     height: auto; /* Adjust height as needed for content */
     width: 100%; /* Take up the full width of the viewport */
   }
