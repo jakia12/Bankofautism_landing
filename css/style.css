@@ -7498,3 +7498,10 @@ ul.wallet_list {
   padding: 90px 0;
   margin-top: -28px;
 }
+
+@media only screen and (max-width: 600px) {
+  .my-video video{
+    height: auto; /* Adjust height as needed for content */
+    width: 100%; /* Take up the full width of the viewport */
+  }
+}
